@@ -1,0 +1,61 @@
+{
+  "anatomy": {
+      "jaws": [
+      {
+        "id": "jaw-cloud",
+        "source": "cloud",
+        "modelPath": "/models/jaw.stl",
+        "position": [0, 0, 0],
+        "quaternion": [0, 0, 0, 1],
+        "scale": [1.85, 1.85, 1.85],
+        "opacity": 0.8,
+        "visible": true
+      }]
+  },
+
+  "objects": [
+    {
+      "id": "implant1",
+      "type": "implant",
+      "modelPath": "/models/implant_screw.stl",
+      "position": [35, 5, 20],
+      "quaternion": [-0.707, 0, 0, 0.707],
+      "scale": [0.30, 0.35, 0.30]
+    },
+    {
+      "id": "crown1",
+      "type": "crown",
+      "modelPath": "/models/crown.stl",
+      "position": [35, 5, 30],
+      "quaternion": [-0.707, 0, 0, 0.707],
+      "scale": [0.30, 0.35, 0.30]
+    }
+  ],
+
+  "selection": {
+    "selectedIds": ["implant1"]
+  },
+
+  "ui": {
+    "activeTool": "transform",
+    "transformMode": "translate",
+    "placeType": "implant"
+  },
+
+  "analysis": {
+    "measurement": false,
+    "axisGuide": false
+  },
+
+  "utilities": {
+    "annotation": false,
+    "freehandMarking": false,
+    "magnifier": false,
+    "boneDepth": false,
+    "focusJaw": true
+  },
+
+  "settings": {
+    "jawOpacity": 0.8
+  }
+}
